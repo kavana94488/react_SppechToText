@@ -1,0 +1,48 @@
+.speech{
+    text-align: center;
+}
+
+/* .speech>p{
+margin-bottom: 20px;
+} */
+h2{
+    font-size: 20px;
+    width: 50%;
+    font-weight: 1;
+   margin: auto;
+   margin-bottom: 50px;
+    
+}
+
+.speech>section{
+    background-color: red;
+    width: 500px;
+    height:400px;
+    /* margin: auto; */
+
+}
+
+.text{
+    display: grid;
+    place-items: center;
+   margin: auto;
+   width: 500px;
+   height:400px;
+   background-color:  lightgray;
+    /* box-shadow:  5px  red ; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+.btn-style{
+display: flex;
+gap:50px;
+
+}
+.btn-style>button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: seagreen;
+    color: white;
+}
